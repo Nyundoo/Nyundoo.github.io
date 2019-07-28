@@ -1,0 +1,409 @@
+@media (max-width: 2000px){
+    #whoweare{
+        padding-top: 60px;
+    }
+
+    #products{
+        padding-top: 60px;
+    }
+
+    #services{
+        padding-top: 60px;
+    }
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 920px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 920px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 920px;
+}
+
+
+
+    #services{
+  padding-top: 50px;
+  text-align: center;
+ }
+     .carousel-caption p {
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 1.4;
+    padding-bottom: 35px
+  }
+  .carousel-caption h1{
+    padding-bottom: 10px;
+  }
+  .navbar-wrapper .navbar {
+    border-radius: 5px;
+  }
+  #footerget{
+  background-color: #a52a2a;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 21px;
+}
+#fa-arrow-alt-circle-up{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  visibility: 20%;
+}
+
+
+.navbar-wrapper{
+  position: fixed;
+}
+#services{
+  padding-top: 50px;
+}
+}
+
+@media (max-width: 1199px){
+  #whoweare{
+        padding-top: 60px;
+    }
+
+    #products{
+        padding-top: 60px;
+    }
+
+    #services{
+        padding-top: 60px;
+    }
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 900px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 900px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 900px;
+}
+
+    #services, #products{
+  padding-top: 50px;
+  text-align: center;
+}
+
+  .navbar-wrapper .navbar {
+    border-radius: 5px;
+  }
+  #footerget{
+  background-color: #a52a2a;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+}
+
+@media (max-width: 992px){
+    #services, #products{
+  padding-top: 50px;
+  text-align: center;
+}
+
+    .navbar-wrapper .navbar {
+    border-radius: 5px;
+  }
+}
+/*--------------*/
+
+.item p{
+  padding: 0 10px;
+}
+#col-lg-4{
+  padding-top: 20px;
+  padding-bottom: 20px;
+.item p{
+  font-size: 14px;
+  padding-bottom: 0;
+}
+
+.row p{
+  font-size: 18px;
+}
+.carousel-caption h1{
+  font-size: 28px;
+
+}
+
+#myCarousel{
+  height: 300px;
+  }
+
+.carousel-inner{
+  height: 300px;
+}
+.carousel {
+  height: 300px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 300px;
+  background-color: #777;
+}
+.carousel-inner > .item > img.first-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 300px;
+}
+.carousel-inner > .item > img.second-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 300px;
+}
+.carousel-inner > .item > img.third-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 300px;
+}
+ .carousel-caption p {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  /* Navbar positioning foo */
+ .navbar-wrapper {
+    margin-top: 25px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 5px;
+  }
+
+  .carousel-caption h1 {
+     margin-bottom: 5px;
+  }
+ 
+#footerget{
+  background-color: #a52a2a;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+
+
+}
+
+@media (max-width: 768px){
+   
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+    #services, #products{
+  padding-top: 60px;
+  text-align: center;
+}
+.item p{
+  font-size: 14px;
+  padding-bottom: 0;
+}
+.btn{
+  font-size: 15px;
+}
+.row p{
+  font-size: 18px;
+}
+.carousel-caption h1{
+  font-size: 24px;
+
+}
+#myCarousel{
+  height: 260px;
+  }
+ #back-to-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+ } 
+ #back-to-top a{
+  color: #333;
+ }
+
+.carousel-inner{
+  height: 260px;
+}
+.carousel {
+  height: 250px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 260px;
+  background-color: #777;
+}
+.carousel-inner > .item > img.first-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 260px;
+}
+.carousel-inner > .item > img.second-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 260px;
+}
+.carousel-inner > .item > img.third-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 260px;
+}
+ .carousel-caption p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  /* Navbar positioning foo */
+ .navbar-wrapper {
+    margin-top: 5px;
+     position: absolute;
+  }
+  .navbar-wrapper .container {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 5px;
+  }
+
+  .carousel-caption h1 {
+     margin-bottom: 5px;
+  }
+  #footerget{
+  background-color: #a52a2a;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+#myCarousel{
+  margin-top:  55px;
+  margin-bottom: 5px;
+}
+footer{
+  font-color: ffffff;
+}
+}
+
+@media (min-width: 576px) {
+  .h1 {
+    font-size: 170%; }
+  .h2 {
+    font-size: 140%; }
+  .h3{
+    font-size: 125%; }
+}
+
+@media (min-width: 768px) {
+  .h1 {
+    font-size: 200%; }
+  .h2 {
+    font-size: 170%; }
+  .h3 {
+    font-size: 140%; }
+ }
+
+@media (min-width: 992px) {
+  .h1 {
+    font-size: 200%; }
+  .h2 {
+    font-size: 170%; }
+  .h3 {
+    font-size: 140%; }
+ }
+
+@media (min-width: 1200px) {
+  .h1 {
+    font-size: 250%; }
+  .h2 {
+    font-size: 200%; }
+  .h3 {
+    font-size: 170%; }
+  }
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.md-form {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+body {
+    padding: 1.2em;
+    color: #5a5a5a;
+}
